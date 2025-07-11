@@ -131,4 +131,4 @@ Edit
 python src/main.py
 You'll see logs from agents writing to memory, reacting to each other, and forming a collaborative result.
 
-'''bash
+```
