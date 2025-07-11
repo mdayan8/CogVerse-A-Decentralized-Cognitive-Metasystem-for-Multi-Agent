@@ -40,25 +40,6 @@ This triggers:
 Agents write to the **Thought Mesh**, listen to the **Event Bus**, and score each other in the **Social Graph**.
 
 ---
-
-## 🔧 How To Use
-
-### 1. Install Requirements
-
-```bash
-pip install -r requirements.txt
-2. Set OpenAI API Key
-bash
-Copy
-Edit
-export OPENAI_API_KEY="your_api_key_here"
-3. Run It
-bash
-Copy
-Edit
-python src/main.py
-You'll see logs from agents writing to memory, reacting to each other, and forming a collaborative result.
-
 ⚙️ System Components
 agent.py: Defines the base Agent class and specialized agents like ResearchBot
 
@@ -130,10 +111,24 @@ The dream of building collective machine intelligence
 
 Made with 💻 + ☕ by Md Ayan
 
-yaml
+
+
+## 🔧 How To Use
+
+### 1. Install Requirements
+
+```bash
+pip install -r requirements.txt
+2. Set OpenAI API Key
+bash
 Copy
 Edit
+export OPENAI_API_KEY="your_api_key_here"
+3. Run It
+bash
+Copy
+Edit
+python src/main.py
+You'll see logs from agents writing to memory, reacting to each other, and forming a collaborative result.
 
----
-
-Let me know if you want a **GitHub-ready repo ZIP**, **demo GIFs**, or to move into **deplo
+'''bash
