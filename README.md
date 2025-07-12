@@ -38,7 +38,9 @@ This triggers:
 - `WriterBot` → synthesizes final content
 
 Agents write to the **Thought Mesh**, listen to the **Event Bus**, and score each other in the **Social Graph**.
-docs/architecture_diagram.png.png
+
+![CogVerse Architecture Diagram](docs/architecture_diagram.png.png)
+
 ---
 ⚙️ System Components
 agent.py: Defines the base Agent class and specialized agents like ResearchBot
